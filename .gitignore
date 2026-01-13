@@ -1,0 +1,8 @@
+# Ignorar archivo de entorno local
+.env
+
+# Node / build / OS (ejemplos comunes)
+node_modules/
+dist/
+.DS_Store
+.env.local

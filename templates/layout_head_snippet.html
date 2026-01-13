@@ -1,0 +1,6 @@
+<!-- Inserta esto dentro del <head> de tu plantilla principal -->
+<meta name="app-base-url" content="<?= htmlspecialchars(BASE_URL) ?>">
+<script>
+  window.APP = window.APP || {};
+  window.APP.BASE_URL = document.querySelector('meta[name="app-base-url"]').content;
+</script>
